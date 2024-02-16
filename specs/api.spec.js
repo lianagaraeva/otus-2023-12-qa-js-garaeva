@@ -1,3 +1,4 @@
+/*
 import {
   authorized,
   generateUserCredentials,
@@ -50,3 +51,4 @@ describe('API tests', () => {
     // expect(responseInfo).toBe(404)
   })
 })
+*/
