@@ -1,5 +1,5 @@
-// const config = {
-//   baseURL: 'https://bookstore.demoqa.com',
-// }
+const config = {
+  baseURL: 'https://bookstore.demoqa.com',
+}
 
-// export { config }
+export { config }
