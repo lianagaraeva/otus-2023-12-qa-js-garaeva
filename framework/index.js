@@ -1,6 +1,3 @@
 export { config } from './config'
-export { authorized } from './services/authService'
+export * from './services'
 export { generateUserCredentials } from './fixtures/userFixture'
-export { createUser } from './services/createUser'
-export { getUserInfo } from './services/getUserInfo'
-export { deleteUser } from './services/deleteUser'
