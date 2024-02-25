@@ -45,7 +45,7 @@ describe('API tests', () => {
     console.log('Удаление пользователя', response)
     expect(response.status).toBe(204)
     const responseInfo = await getUserInfo(user.userID)
-    console.log('responseInfo', responseInfo)
+    console.log('responseInfo ', responseInfo)
     expect(responseInfo.status).toBe(401)
     expect(responseInfo.data.message).toBe('User not found!')
   })
