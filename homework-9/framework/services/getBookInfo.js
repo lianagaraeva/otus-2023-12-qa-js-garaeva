@@ -1,7 +1,6 @@
 import { config } from '../config'
 
 export const getBookInfo = async (user, isbn) => {
-  console.log('getBookInfo isbn', isbn)
   const response = await fetch(
     `${config.baseURL}/BookStore/v1/Book?ISBN=${isbn}`,
     {

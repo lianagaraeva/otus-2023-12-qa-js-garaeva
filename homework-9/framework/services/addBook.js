@@ -1,7 +1,6 @@
 import { config } from '../config'
 
 export const addBook = async (user, isbn) => {
-  console.log('user, isbn', user, isbn)
   const response = await fetch(`${config.baseURL}/BookStore/v1/Books`, {
     method: 'POST',
     headers: {
@@ -12,7 +11,7 @@ export const addBook = async (user, isbn) => {
       userId: user.userID,
       collectionOfIsbns: [
         {
-          isbn: isbn,
+          isbn,
         },
       ],
     }),
