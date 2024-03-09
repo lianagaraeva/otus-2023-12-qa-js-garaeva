@@ -6,7 +6,8 @@
   "scripts": {
     "start": "babel-node spec/api.spec.js",
     "test": "jest",
-    "build": "babel spec --out-dir build --source-maps inline"
+    "build": "babel spec --out-dir build --source-maps inline",
+    "test:ci": "cross-env CI=true"
   },
   "author": "liana <garaeva.lianaa@gmail.com>",
   "license": "MIT",
