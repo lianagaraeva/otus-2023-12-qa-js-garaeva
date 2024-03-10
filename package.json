@@ -7,7 +7,10 @@
     "start": "babel-node spec/api.spec.js",
     "test": "jest",
     "build": "babel spec --out-dir build --source-maps inline",
-    "test:ci": "cross-env CI=true NODE_OPTIONS=\"--max-old-space-size=2048\" jest"
+    "test:ci": "cross-env CI=true NODE_OPTIONS=\"--max-old-space-size=2048\" jest",
+    "allure": "allure serve allure-results",
+    "allure:ci": "allure generate allure-results --clean",
+    "allure:ci:show": "allure open allure-report"
   },
   "author": "liana <garaeva.lianaa@gmail.com>",
   "license": "MIT",
