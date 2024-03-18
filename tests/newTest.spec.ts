@@ -9,6 +9,7 @@ test.describe('Auth test cases', async () => {
   //     // await expect(page.locator('#userForm')).toBeVisible()
   //     await expect(page).toHaveScreenshot('loginPage.png')
 })
+
 test('Check profile', async ({ page }) => {
   await page.goto('https://demoqa.com/profile')
   await expect(page.locator('#userName-value')).toBeVisible()
