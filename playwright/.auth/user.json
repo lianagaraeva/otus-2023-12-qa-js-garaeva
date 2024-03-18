@@ -1,0 +1,107 @@
+{
+  "cookies": [
+    {
+      "name": "_gid",
+      "value": "GA1.2.1019891300.1710604266",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1710690665,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-109033876-1",
+      "value": "1",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1710604325,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.441864162.1710604266",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1745164300.206706,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3QxNjAzIiwicGFzc3dvcmQiOiJ0ZXN0MTYwM1BhcyQiLCJpYXQiOjE3MTA2MDQyOTZ9.vHsIKF7-Utfhh67TPZQczb7IhzmMhjQL4XCsxrusIpQ",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expires",
+      "value": "2024-03-23T15%3A51%3A36.753Z",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userID",
+      "value": "67c1d04c-1d19-44a5-8f82-d1892f7b695e",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userName",
+      "value": "test1603",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_MVRXK93D28",
+      "value": "GS1.1.1710604300.1.1.1710604308.52.0.0",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1745164308.774764,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://demoqa.com",
+      "localStorage": [
+        {
+          "name": "totalCalls",
+          "value": "0"
+        },
+        {
+          "name": "totalCallsTimeout",
+          "value": "0"
+        },
+        {
+          "name": "lastSuccessfullAd",
+          "value": "0"
+        },
+        {
+          "name": "__VASTUtil__",
+          "value": "__VASTUtil__"
+        }
+      ]
+    }
+  ]
+}
