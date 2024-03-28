@@ -73,20 +73,9 @@ test.describe('Взаимодействие с таблицей книг', async
     await expect(page.locator('.-sort-asc')).not.toBeVisible()
     await page.getByRole('columnheader', { name: 'Author' }).click()
     await expect(page.locator('.-sort-asc')).toBeVisible()
+
     await expect(
-      page.getByRole('gridcell', { name: 'Addy Osmani' })
-    ).toBeVisible()
-    await expect(
-      page.getByRole('gridcell', { name: 'Axel Rauschmayer' })
-    ).toBeVisible()
-    await expect(
-      page.getByRole('gridcell', { name: 'Eric Elliott' })
-    ).toBeVisible()
-    await expect(
-      page.getByRole('gridcell', { name: 'Glenn Block et al.' })
-    ).toBeVisible()
-    await expect(
-      page.getByRole('gridcell', { name: 'Kyle Simpson' })
-    ).toBeVisible()
+      page.locator('.rt-tr.-odd > .rt-td:nth-child(3)').first()
+    ).toHaveText(/Addy Osmani/)
   })
 })
