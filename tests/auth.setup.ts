@@ -5,8 +5,8 @@ const authFile = 'playwright/.auth/user.json'
 setup('authenticate', async ({ page }) => {
   // Perform authentication steps. Replace these actions with your own.
   await page.goto('https://demoqa.com/login')
-  await page.locator('input[id=userName]').fill('test1603')
-  await page.locator('input[id=password]').fill('test1603Pas$')
+  await page.locator('input[id=userName]').fill('test1903')
+  await page.locator('input[id=password]').fill('test1903Pas$')
   await page.locator('button[id=login]').click()
   // Wait until the page receives the cookies.
   //
